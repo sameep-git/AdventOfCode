@@ -1,8 +1,16 @@
-import urllib.request
+import os
+import datetime
 
-url = 'https://adventofcode.com/2023/day/1/input'
+done = False
+while True:
+    if done:
+        break
+    curr_time = datetime.datetime.now()
 
-file_Path = 'day1/input.txt'
+    target_time = datetime.datetime(2024, 12, 1, 23, 0, 0)
 
-urllib.request.urlretrieve(url, file_Path)
-
+    if curr_time < target_time:
+        continue
+    else:
+        os.system("aocd 2024 2 > day2/input.txt")
+        done = True
