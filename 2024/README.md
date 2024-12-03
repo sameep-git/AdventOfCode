@@ -14,3 +14,4 @@ While working on these daily problems, my goals are:
 |:--:|:--:|:--:|
 | 1 | ✅ | ✅ |
 | 2 | ✅ | ✅ |
+| 3 | ✅ | ✅ |
